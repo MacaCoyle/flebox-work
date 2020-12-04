@@ -1,0 +1,95 @@
+body{
+  	background-color: #f0f5f1;
+  	margin: 0px;
+  	padding: 0px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
+
+header{
+	display: flex;
+	flex: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	background-color: white;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 200px;
+	padding: 0;
+
+}
+
+menu li{
+	list-style: none;
+}
+
+.claseTitulo{  
+  	display: block;
+  	font-size: 1.17em;
+  	margin-top: 1em;
+  	margin-bottom: 1em;
+  	margin-left: 0;
+  	margin-right: 0;
+  	font-weight: bold;
+}
+
+.material-icons{
+	font-size: 100px;
+}
+.primeraCol{
+	padding-left: 25px;
+	display: inline-block;
+	width: 360px;
+}
+
+.textoSub {
+	display: inline-block;
+	width: 360px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.textoSubNotAligned{
+	display: inline-block;
+	width: 350px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.textoSubSegunda{
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+main{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	padding: 10px 40px 10px 2px;
+}
+
+section{
+	width: 30%;
+}
+
+footer{
+	background-color: white
+}
